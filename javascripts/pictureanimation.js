@@ -18,7 +18,7 @@ var pictures = [
 			divLeft = $('div.left');
 			divLeft.animate({opacity: 0}, "fast", function() {
 				divLeft
-					.css("background-image", "url(../images/"+pictures[index]+")")
+					.css("background-image", "url(images/"+pictures[index]+")")
 					.animate({opacity: 1})
 			})
 
